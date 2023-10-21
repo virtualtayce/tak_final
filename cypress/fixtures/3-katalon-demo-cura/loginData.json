@@ -1,0 +1,10 @@
+{
+    "loginFailed": {
+        "username": "wrong_user",
+        "password": "wrong_pass"
+    },
+    "loginSuccess": {
+        "username": "John Doe",
+        "password": "ThisIsNotAPassword"
+    }
+}
