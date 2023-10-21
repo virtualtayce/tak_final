@@ -1,1 +1,2 @@
-# tak_final
+# TAK Final Assignment
+An assignment to learn about Cypress.
