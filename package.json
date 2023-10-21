@@ -1,0 +1,16 @@
+{
+  "name": "tak_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "katalonDemo": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/*.cy.js'",
+    "login": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/login.cy.js'",
+    "appoint": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/appoint.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.2"
+  }
+}
