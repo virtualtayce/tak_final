@@ -6,7 +6,8 @@
   "scripts": {
     "katalonDemo": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/*.cy.js'",
     "login": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/login.cy.js'",
-    "appoint": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/appoint.cy.js'"
+    "appoint": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/appoint.cy.js'",
+    "footer": "npx cypress run --browser chrome --spec 'cypress/e2e/3-katalon-demo-cura/footer.cy.js'"
   },
   "author": "",
   "license": "ISC",
